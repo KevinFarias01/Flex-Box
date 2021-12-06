@@ -1,0 +1,50 @@
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+
+/*Corpo- Conteúdo Principal*/
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 20%;
+}
+
+
+/*Rodapé*/
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /*quebra de colunas... passou de 250px = Quebra! */
+    height: 250px;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between; /*espaço entre os elementos*/ 
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /*espaço ao redor dos elementos*/ 
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
